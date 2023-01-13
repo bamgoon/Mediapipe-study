@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Main from "./Main";
-import Pose from "./Pose";
-import Selfie from "./Selfie";
+import Main from "./components/Main";
+import Pose from "./components/Pose";
+import Selfie from "./components/Selfie";
 
 const App = () => {
   return (

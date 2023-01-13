@@ -2,7 +2,7 @@ import * as tf from "@tensorflow/tfjs";
 import * as posenet from "@tensorflow-models/posenet";
 import { useRef } from "react";
 import Webcam from "react-webcam";
-import { drawKeypoints, drawSkeleton } from "./utilities";
+import { drawKeypoints, drawSkeleton } from "../utilities";
 
 const style = { position: "absolute", marginLeft: "auto", marginRight: "auto", left: 0, right: 0, textAlign: "center", zIndex: 9, width: 640, height: 480 };
 

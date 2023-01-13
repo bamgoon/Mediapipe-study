@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useState } from "react";
 import Webcam from "react-webcam";
 import { SelfieSegmentation } from "@mediapipe/selfie_segmentation";
 import * as cam from "@mediapipe/camera_utils";
-import defaultImg from "./vback.jpg";
+import defaultImg from "../vback.jpg";
 
 const style = {
   width: 640,
